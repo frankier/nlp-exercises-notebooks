@@ -10,13 +10,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v2
-
-      - name: Checkout submodules
-        uses: textbook/git-checkout-submodule-action@master
+        uses: actions/checkout@v4
 
       - name: Build/push
-        uses: whoan/docker-build-with-cache-action@v5
+        uses: whoan/docker-build-with-cache-action@v8
         with:
           registry: ghcr.io
           image_name: frankier/nlp-exercises-notebook
