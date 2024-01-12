@@ -1,0 +1,9 @@
+name: nlp-exercises-main
+channels:
+  - conda-forge
+dependencies:
+  - nb_conda_kernels
+  - matplotlib
+  - nltk
+  - seaborn
+  - scikit-learn
