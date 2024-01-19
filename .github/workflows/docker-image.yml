@@ -16,6 +16,6 @@ jobs:
         uses: whoan/docker-build-with-cache-action@v8
         with:
           registry: ghcr.io
-          image_name: frankier/nlp-exercises-notebook
+          image_name: frankier/ties4200-notebooks
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
