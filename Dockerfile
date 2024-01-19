@@ -15,4 +15,4 @@ COPY environment.yml ./
 
 ### Installing conda packages and jupyter lab extensions. 
 RUN mamba env update --file environment.yml \
-  && mamba clean -afy
+  && mamba clean -afy && rm environment.yml
