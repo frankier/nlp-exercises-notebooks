@@ -6,7 +6,7 @@ USER root
 ENV HOME /home/$NB_USER
 
 RUN apt-get update \
-    && apt-get install -y ssh-client less \
+    && apt-get install -y ssh-client less git \
     && apt-get clean
 
 USER $NB_USER
