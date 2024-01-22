@@ -7,3 +7,8 @@ dependencies:
   - nltk
   - seaborn
   - scikit-learn
+  - datasets
+  - jax
+  - equinox
+  - optax
+  - pytorch
