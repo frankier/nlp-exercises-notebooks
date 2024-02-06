@@ -12,3 +12,4 @@ dependencies:
   - equinox
   - optax
   - pytorch
+  - scikit-multilearn
