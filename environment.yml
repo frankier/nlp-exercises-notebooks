@@ -13,7 +13,7 @@ dependencies:
   - optax
   - pytorch
   - scikit-multilearn
-  - umap
+  - umap-learn
   - pandas
   - datashader
   - bokeh
