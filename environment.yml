@@ -13,3 +13,10 @@ dependencies:
   - optax
   - pytorch
   - scikit-multilearn
+  - umap
+  - pandas
+  - datashader
+  - bokeh
+  - holoviews
+  - colorcet
+  - scikit-image
