@@ -27,3 +27,5 @@ dependencies:
   - ai2-olmo
   - intel_extension_for_transformers
   - ipympl
+  - jedi-language-server
+  - jupyterlab-lsp
