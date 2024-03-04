@@ -26,6 +26,7 @@ RUN /opt/conda/bin/python -c "from nltk import download; download('brown'); down
 RUN /opt/conda/bin/python -c 'from sklearn.datasets import fetch_20newsgroups; fetch_20newsgroups()'
 RUN /opt/conda/bin/python -c 'from datasets import load_dataset; load_dataset("wikitext", "wikitext-2-raw-v1"); load_dataset("wikitext", "wikitext-2-v1")'
 RUN wget https://osf.io/download/whjt2/ -o /resources/other/mfd2.0.dic
+RUN wget https://osf.io/download/whjt2/ -o /resources/other/mfd2.0.dic
 
 ### Change back to $NB_USER
 USER $NB_USER

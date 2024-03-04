@@ -1,6 +1,7 @@
 name: nlp-exercises-main
 channels:
   - conda-forge
+  - intel
 dependencies:
   - nb_conda_kernels
   - matplotlib
@@ -24,3 +25,5 @@ dependencies:
   - pympler
   - gensim
   - ai2-olmo
+  - intel_extension_for_transformers
+  - ipympl
