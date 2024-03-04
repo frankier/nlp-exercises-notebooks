@@ -29,3 +29,4 @@ dependencies:
   - ipympl
   - jedi-language-server
   - jupyterlab-lsp
+  - jupyter-resource-usage
