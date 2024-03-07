@@ -3,6 +3,8 @@ channels:
   - conda-forge
   - intel
 dependencies:
+  - python
+  - pip
   - nb_conda_kernels
   - matplotlib
   - nltk
@@ -10,6 +12,7 @@ dependencies:
   - scikit-learn
   - datasets
   - jax=0.4.23
+  - flax
   - equinox
   - optax
   - pytorch
@@ -30,3 +33,7 @@ dependencies:
   - jedi-language-server
   - jupyterlab-lsp
   - jupyter-resource-usage
+  - sentence-transformers
+  - llama-cpp-python
+  - pip:
+    - textalloc
