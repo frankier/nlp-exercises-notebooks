@@ -36,5 +36,6 @@ dependencies:
   - sentence-transformers
   - llama-cpp-python
   - otter-grader
+  - tabulate
   - pip:
     - textalloc
