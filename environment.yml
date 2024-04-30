@@ -35,6 +35,8 @@ dependencies:
   - jupyterlab-lsp
   - jupyter-resource-usage
   - sentence-transformers
+  - transformers
+  - accelerate
   - llama-cpp-python
   - otter-grader
   - tabulate
