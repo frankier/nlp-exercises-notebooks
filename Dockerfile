@@ -18,7 +18,7 @@ RUN mamba env update -n base --file environment.yml \
 ### Pre-download datasets/models
 RUN mkdir -p /resources/nltk /resources/huggingface /resources/transformers /resources/sklearn /resources/other
 ENV NLTK_DATA /resources/nltk
-ENV TRANSFORMERS_CACHE /resources/transformers
+#ENV TRANSFORMERS_CACHE /resources/transformers
 ENV SCIKIT_LEARN_DATA /resources/sklearn
 
 RUN /opt/conda/bin/python -c "from nltk import download; download('brown'); download('stopwords')"
